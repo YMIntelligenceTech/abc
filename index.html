@@ -18,9 +18,10 @@
 <link rel="stylesheet" href="css/flaticon.css">
 <link rel="stylesheet" href="css/icomoon.css">
 <link rel="stylesheet" href="css/style.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" data-aos="zoom-in" >
 <div class="container">
 <a class="navbar-brand" href="index-2.html">YM Intelligence Tech.</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +37,7 @@
 </div>
 </nav>
 
-<section class="hero-wrap d-flex" id="home">
+<section class="hero-wrap d-flex" id="home" data-aos="zoom-in">
 <div class="forth d-flex">
 <div class="bg-after d-flex align-self-stretch"></div>
 <div class="text">
@@ -52,7 +53,7 @@
 </div>
 </div>
 </section>
-<section class="ftco-section ftco-no-pt ftco-no-pb" style="margin-top: 30px;" id="about">
+<section class="ftco-section ftco-no-pt ftco-no-pb" style="margin-top: 30px;" id="about" data-aos="flip-left">
 <div class="container">
 <div class="row no-gutters">
 <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center order-md-last" style="background-image: url(images/about.jpg);">
@@ -174,7 +175,7 @@
 </div>
 </div>
 </section>-->
-<section class="ftco-section ftco-counter" id="section-counter" style="background-image: url(images/bg_3.jpg);margin-top: 30px;" data-stellar-background-ratio="0.5">
+<section class="ftco-section ftco-counter" data-aos="flip-right" id="section-counter" style="background-image: url(images/bg_3.jpg);margin-top: 30px;" data-stellar-background-ratio="0.5">
 <div class="container">
 <div class="row d-md-flex align-items-center">
 <div class="col-lg-4">
@@ -225,7 +226,7 @@
 </div>
 </section>
 
-<div class="row block-9" style="width:60%; margin: 0 auto; margin-top: 30px;" id="contact">
+<div class="row block-9" style="width:60%; margin: 0 auto; margin-top: 30px;" id="contact" data-aos="flip-up">
   <div class="col-md-12 pr-md-5 text-center">
       <h2 class="mb-4">Contact Us</h2>
   <form action="mailto:ymintelligencetech@gmail.com">
@@ -248,7 +249,7 @@
   </div>
  </div> 
 
-<footer class="ftco-footer ftco-bg-dark ftco-section" style="margin-top: 30px;">
+<footer class="ftco-footer ftco-bg-dark ftco-section" style="margin-top: 30px;" data-aos="flip-down">
 <div class="container">
 <div class="row mb-5 d-flex">
 <div class="col-md">
@@ -308,9 +309,10 @@
 <script src="js/jquery.animateNumber.min.js" type="696a5937a5b41bb8c750b926-text/javascript"></script>
 <script src="js/scrollax.min.js" type="696a5937a5b41bb8c750b926-text/javascript"></script>
 <script src="js/main.js" type="696a5937a5b41bb8c750b926-text/javascript"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13" type="696a5937a5b41bb8c750b926-text/javascript"></script>
 <script type="696a5937a5b41bb8c750b926-text/javascript">
+  AOS.init();
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
